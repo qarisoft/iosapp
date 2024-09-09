@@ -30,6 +30,7 @@ jobs:
       
       - name: Setup Node
       - uses: pnpm/action-setup@v4
+      
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
