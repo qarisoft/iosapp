@@ -89,6 +89,10 @@ export const siteConfig = {
       },
     ],
   },
+  home:{
+    privacy:"الخصوصية",
+    support:"مساعدة"
+  },
   navItems: [
     {
       label: "Home",
@@ -105,11 +109,6 @@ export const siteConfig = {
       label_ar: "الدعم",
       href: "/support",
     },
-    // {
-    //   label: "Blog",
-    //   label_ar: "Blog",
-    //   href: "/blog",
-    // },
     {
       label: "About",
       label_ar: "عنا",

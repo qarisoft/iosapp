@@ -1,13 +1,20 @@
+/*@font-face{*/
+/*    font-family: "Tajawal";*/
+/*    font-weight: 600;*/
+/*    src: url("./Tajawal/Tajawal-Bold.ttf") format("truetype");*/
+/*}*/
 @font-face {
-    font-family: 'Tajawal';
-    src:
-    url('./Tajawal/Tajawal-Medium.ttf'),
-    url('./Tajawal/Tajawal-Bold.ttf'),
-    url('./Tajawal/Tajawal-Black.ttf'),
-    url('./Tajawal/Tajawal-Regular.ttf'),
-    url('./Tajawal/Tajawal-ExtraBold.ttf'),
-    url('./Tajawal/Tajawal-ExtraLight.ttf'),
-    url('./Tajawal/Tajawal-Light.ttf');
+    font-family: "Tajawal";
+    font-style: normal;
+    font-weight: 500;
+
+    src: url("./Tajawal/Tajawal-Medium.ttf") format("truetype");
+    /*url('./Tajawal/Tajawal-Bold.ttf'),*/
+    /*url('./Tajawal/Tajawal-Black.ttf'),*/
+    /*url('./Tajawal/Tajawal-Regular.ttf'),*/
+    /*url('./Tajawal/Tajawal-ExtraBold.ttf'),*/
+    /*url('./Tajawal/Tajawal-ExtraLight.ttf'),*/
+    /*url('./Tajawal/Tajawal-Light.ttf');*/
 }
 @tailwind base;
 @tailwind components;
