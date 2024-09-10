@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Tajawal';
+    src:
+    url('./Tajawal/Tajawal-Medium.ttf'),
+    url('./Tajawal/Tajawal-Bold.ttf'),
+    url('./Tajawal/Tajawal-Black.ttf'),
+    url('./Tajawal/Tajawal-Regular.ttf'),
+    url('./Tajawal/Tajawal-ExtraBold.ttf'),
+    url('./Tajawal/Tajawal-ExtraLight.ttf'),
+    url('./Tajawal/Tajawal-Light.ttf');
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.ar,section.ar{
+    direction: rtl;
+}

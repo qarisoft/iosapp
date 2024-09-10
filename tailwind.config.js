@@ -10,8 +10,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)"],
-        mono: ["var(--font-mono)"],
+        sans:'Tajawal'
+        // sans: ["var(--font-sans)"],
+        // mono: ["var(--font-mono)"],
+
       },
     },
   },

@@ -1,4 +1,6 @@
-export default function PricingLayout({
+import React from "react";
+
+export default function PrivacyLayout({
   children,
 }: {
   children: React.ReactNode;
