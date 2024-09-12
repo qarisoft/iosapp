@@ -21,7 +21,7 @@ import { usePathname } from "next/navigation";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { SearchIcon } from "@/components/icons";
-import   AppLogo  from '@/public/logo.png'
+import AppLogo from "@/public/logo.png";
 export const Navbar = () => {
   const path = usePathname();
   const searchInput = (
@@ -50,7 +50,7 @@ export const Navbar = () => {
       <NavbarContent className="basis-1/5 sm:basis-full" justify="start">
         <NavbarBrand as="li" className="gap-3 max-w-fit">
           <NextLink className="flex justify-start items-center gap-1" href="/">
-             {/*<AppLogo /> */}
+            {/*<AppLogo /> */}
             <Image alt="logo" height={40} src={AppLogo} width={40} />
             <p className="font-bold text-inherit w-2" />
           </NextLink>
@@ -108,7 +108,7 @@ export const Navbar = () => {
           {siteConfig.navItems.map((item, index) => (
             <NavbarMenuItem key={`l-${index}`}>
               <Link
-                color={path === item.href ?'primary':'foreground'}
+                color={path === item.href ? "primary" : "foreground"}
                 // className={path === item.href ? "text-primary" : ""}
                 href={item.href}
                 size="lg"

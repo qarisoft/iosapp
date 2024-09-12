@@ -8,6 +8,7 @@ module.exports = {
     './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
+
     extend: {
       fontFamily: {
         sans:"Tajawal"
@@ -17,6 +18,7 @@ module.exports = {
       },
     },
   },
-  darkMode: "class",
+  // darkMode: "class",
+
   plugins: [nextui()],
 }
